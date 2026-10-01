@@ -50,7 +50,7 @@ docker compose config --quiet
 docker compose up -d --build --wait
 ```
 
-访问 **http://127.0.0.1:8099/**，账号 **admin**，首次密码从本地忽略的 `.env` 中 `ADMIN_PASSWORD` 读取。初始化脚本生成独立强密码，拒绝覆盖已有 `.env`，不输出密码。首次启动只建立权限、菜单、字典、系统参数及管理员；不植入业务案例。
+访问 [http://127.0.0.1:8099/](http://127.0.0.1:8099/)，账号 **admin**，首次密码从本地忽略的 `.env` 中 `ADMIN_PASSWORD` 读取。初始化脚本生成独立强密码，拒绝覆盖已有 `.env`，不输出密码。首次启动只建立权限、菜单、字典、系统参数及管理员；不植入业务案例。
 
 `.env.example` 仅列配置名。`ADMIN_PASSWORD` 只用于空库建立管理员，重启不会覆盖已修改密码。不要把 `.env`、运行日志、导出报告或客户数据提交。
 
@@ -132,7 +132,7 @@ git diff --check
 
 ## 联系知华科技
 
-公司：**上海如静知华信息科技有限公司**。官网：**https://www.zhuatech.cn/**。商业授权、定制开发、私有化部署、系统集成、软件实施及技术支持咨询微信：**zhuatech / zhuatech2**。
+公司：**上海如静知华信息科技有限公司**。官网：[https://www.zhuatech.cn/](https://www.zhuatech.cn/)。商业授权、定制开发、私有化部署、系统集成、软件实施及技术支持咨询微信：**zhuatech / zhuatech2**。
 
 <img src="docs/images/wechat-zhuatech.png" alt="微信 zhuatech" width="220">
 <img src="docs/images/wechat-zhuatech2.png" alt="微信 zhuatech2" width="220">
